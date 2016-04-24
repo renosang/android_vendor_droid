@@ -81,8 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/PictureUnlock/PictureUnlock.apk:system/app/PictureUnlock/PictureUnlock.apk
 
 # Audio FX
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/AudioFX/AudioFX.apk:system/priv-app/AudioFX/AudioFX.apk
+#PRODUCT_COPY_FILES += \
+#    vendor/cm/prebuilt/AudioFX/AudioFX.apk:system/priv-app/AudioFX/AudioFX.apk
 
 #DroidTV
 PRODUCT_COPY_FILES += \
