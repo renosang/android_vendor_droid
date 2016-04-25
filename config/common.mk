@@ -98,7 +98,7 @@ ifneq ($(WITH_GMS),true)
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/cm/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/cm/prebuilt/common/bin/50-rr.sh:system/addon.d/50-rr.sh \
+    vendor/cm/prebuilt/common/bin/droid.sh:system/addon.d/droid.sh \
     vendor/cm/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 endif
 
