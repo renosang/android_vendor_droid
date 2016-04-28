@@ -20,7 +20,6 @@ normal='tput sgr0'
 tput setaf 2
 tput bold
 echo -e "";
-echo -e " Build is Succesfully Done !!";
 echo -e "";
 echo -e "";
 tput setaf 4
@@ -44,7 +43,7 @@ echo -e "                                                                       
 echo -e "                                                                                                      ";
 tput setaf 5
 tput bold
-echo -e "                                         ██▒▒░░ MARSHMALLOW ░░▒▒██                                    ";
+echo -e "                                   ██▒▒░░ MARSHMALLOW ░░▒▒██                                          ";
 echo -e "                                                                                                      "; 
 echo -e "                                                                                                      ";
 tput sgr0
