@@ -41,10 +41,3 @@ echo -e " | |_| | |  _ <  | |_| |  | |  | |_| |   \ V /   | |\  | |_____|   | | 
 echo -e " |____/  |_| \_\  \___/  |___| |____/     \_/    |_| \_|           |_|   |_____| /_/   \_\ |_|  |_|   ";
 echo -e "                                                                                                      "; 
 echo -e "                                                                                                      ";
-tput setaf 5
-tput bold
-echo -e "                                   ██▒▒░░ MARSHMALLOW ░░▒▒██                                          ";
-echo -e "                                                                                                      "; 
-echo -e "                                                                                                      ";
-tput sgr0
-echo -e "";

@@ -243,7 +243,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
-PRODUCT_VERSION = BETA
+PRODUCT_VERSION = Offical
     CM_VERSION := DROID-OS-$(PRODUCT_VERSION)-$(CM_BUILD)-$(shell date +%d-%m-%Y-%H:%M:%S)
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.droid.version=$(CM_VERSION) \
