@@ -74,8 +74,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
 # SlimLauncher
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/SlimLauncher/SlimLauncher.apk:system/app/SlimLauncher/SlimLauncher.apk
+#PRODUCT_COPY_FILES += \
+#    vendor/cm/prebuilt/SlimLauncher/SlimLauncher.apk:system/app/SlimLauncher/SlimLauncher.apk
 # PictureUnlock
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/PictureUnlock/PictureUnlock.apk:system/app/PictureUnlock/PictureUnlock.apk
@@ -85,9 +85,9 @@ PRODUCT_COPY_FILES += \
 #    vendor/cm/prebuilt/AudioFX/AudioFX.apk:system/priv-app/AudioFX/AudioFX.apk
 
 #DroidTV
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/DroidTV/DroidTV.apk:system/app/DroidTv/DroidTV.apk
-    vendor/cm/prebuilt/DroidTV/lib:system/app/DroidTv/
+#PRODUCT_COPY_FILES += \
+#    vendor/cm/prebuilt/DroidTV/DroidTV.apk:system/app/DroidTv/DroidTV.apk
+#    vendor/cm/prebuilt/DroidTV/lib:system/app/DroidTv/
 
 #BusyBox
 PRODUCT_COPY_FILES += \
@@ -161,6 +161,10 @@ PRODUCT_PACKAGES += \
 # Custom CM packages
 PRODUCT_PACKAGES += \
     CMFileManager \
+ 	Launcher3 \
+	Trebuchet \
+	HomeLauncher2 \
+    SlimLauncher \
     Eleven \
     LockClock \
     CMSettingsProvider \
