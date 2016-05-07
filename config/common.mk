@@ -27,7 +27,7 @@ endef
 $(foreach size,$(bootanimation_sizes), $(call check_and_set_bootanimation,$(size)))
 
 ifeq ($(TARGET_BOOTANIMATION_HALF_RES),true)
-PRODUCT_BOOTANIMATION := vendor/cm/prebuilt/common/bootanimation/halfres/$(TARGET_BOOTANIMATION_NAME).zip
+PRODUCT_BOOTANIMATION := vendor/cm/prebuilt/common/bootanimation/$(TARGET_BOOTANIMATION_NAME).zip
 else
 PRODUCT_BOOTANIMATION := vendor/cm/prebuilt/common/bootanimation/$(TARGET_BOOTANIMATION_NAME).zip
 endif
@@ -161,9 +161,9 @@ PRODUCT_PACKAGES += \
 # Custom CM packages
 PRODUCT_PACKAGES += \
     CMFileManager \
- 	Launcher3 \
-	Trebuchet \
-	HomeLauncher2 \
+    Launcher3 \
+    Trebuchet \
+    HomeLauncher2 \
     SlimLauncher \
     Eleven \
     LockClock \
@@ -243,7 +243,7 @@ PRODUCT_PACKAGES += \
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=0
+    persist.sys.root_access=1
 
 DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
