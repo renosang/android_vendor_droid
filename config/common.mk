@@ -261,7 +261,8 @@ CM_DISPLAY_VERSION := $(CM_VERSION)
 # SuperSU
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
-    vendor/cm/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+    vendor/cm/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
+    vendor/cm/prebuilt/common/dolby.zip:system/addon.d/dolby.zip 
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.droid.display.version=$(CM_DISPLAY_VERSION)
